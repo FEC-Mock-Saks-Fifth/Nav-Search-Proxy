@@ -1,6 +1,5 @@
 const express = require('express');
 const app = express();
-const port = 3000;
 const bodyParser = require('body-parser');
 const dbHelpers = require('../db/dbHelpers.js');
 
@@ -24,4 +23,4 @@ app.get('/autosearch', (req, res) => {
   })
 })
 
-app.listen(port, () => console.log(`Your express server is listening on port: ${port}`))
+module.exports = app;
