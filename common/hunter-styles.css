@@ -1,0 +1,258 @@
+/* --- RECOMMENDED AND RECENTLY VIEWED PRODUCT LISTS --- */
+div#HTtheme {
+  font-family: Source Sans Pro, sans-serif;
+  text-align: center;
+}
+
+div #HTrecommended_products_list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+h3#HTrec_products_h3 {
+  font-weight: 340;
+}
+
+
+/* --- PRODUCT --- */
+div #HTproduct {
+  padding: 10px;
+  max-width: 140px;
+  min-width: 120px;
+  font-size: 12px;
+}
+
+div #HTproduct:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+img.HTproduct_image {
+  margin: 5px 10px 60px 10px;
+  width: 135px;
+}
+
+p.HTproduct_brand {
+  font-weight: 550;
+  font-size: 14px;
+  margin: 0px;
+}
+
+p.HTproduct_description {
+  font-size: 12px;
+  margin: 5px;
+}
+
+p.HTproduct_rating_num {
+  font-weight: bold;
+  font-size: 12px;
+  margin: 0px;
+}
+
+
+/* --- RELATED PRODUCTS LIST --- */
+div #HTrelated_products_list {
+  font-family: Source Sans Pro, sans-serif;
+  text-align: center;
+  /* border-style: solid; */
+  border-width: 1px 0px 0px 0px;
+  border-color: LightGrey;
+  margin: auto;
+  max-width: 1050px;
+}
+/* h3 for this component uses the h3 from recommended & recently viewed products list above */
+/* flex container here is a global element */
+
+
+/* --- RELATED PRODUCT --- */
+div #HTrelated_product_flex_item {
+  padding: 10px;
+  max-width: 325px;
+  min-width: 120px;
+  font-size: 12px;
+}
+
+img.HTrelated_product_img {
+  margin: 0px 10px;
+  width: 80px;
+  float: left;
+}
+
+p#HTquickview {
+  display: none;
+}
+
+div#HTquick_view_hover:hover #HTquickview {
+  display: flex;
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+p.HTrelated_product_description {
+  font-weight: 550;
+  font-size: 14px;
+  margin: 0px;
+}
+
+p.HTrelated_product_long_description {
+  font-size: 12px;
+  margin: 5px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+
+/* --- RELATED PRODUCT QUICK VIEW --- */
+div.HTtool_tip {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: absolute;
+  border: 1px solid;
+  border-color: darkGrey;
+  background-color: white;
+  z-index: 1;
+}
+
+img.HTquickview_img {
+  margin: 45px 15px 15px 15px;
+  width: 80px;
+  height: 80px;
+  float: left;
+}
+
+div.HTtool_tip_text {
+  text-align: left;
+  max-width: 300px;
+  margin: 15px;
+}
+
+p.HTquickview_default {
+  font-size: 12px;
+}
+
+a {
+  font-weight: bold;
+  color: black;
+}
+
+
+/* --- STATIC COMPONENTS --- */
+div#HTrelated_searches {
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 12px;
+  text-align: left;
+  border-style: solid;
+  border-width: 1px 0px 0px 0px;
+  border-color: LightGrey;
+  margin: auto;
+  padding: 0px 0px 80px 0px;
+  max-width: 1050px;
+}
+
+div#HTmailing_list {
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 12px;
+  text-align: left;
+  border-style: solid;
+  border-width: 0px 0px 0px 0px;
+  border-color: LightGrey;
+  margin: auto;
+  max-width: 1050px;
+}
+
+div#HTmailing_list_flex_container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1050px;
+  margin: auto;
+  padding: 0px 0px 30px 0px;
+  border: solid;
+  border-color: lightGrey;
+  border-width: 1px 0px 0px 0px;
+}
+
+div#HTmailing_list_logo {
+  margin: 15px;
+}
+
+div#HTmailing_list_left {
+  margin: 0px 15px 15px 15px;
+}
+
+div#HTmailing_list_right {
+  border-style: solid;
+  border-width: 0px 0px 0px 1px;
+  border-color: lightGrey;
+}
+
+p.HTstart_earning {
+  font-size: 16px;
+}
+
+p.HTsign_up_text {
+  margin: 15px;
+  font-size: 16px;
+}
+
+input.HTsign_up_input {
+  margin-left: 15px;
+  width: 300px;
+  height: 30px;
+  border: 2px solid darkGrey;
+}
+
+div#HTfooter {
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 12px;
+  text-align: center;
+  background-color: black;
+  color: DarkGrey;
+  width: 100%;
+  height: 100%;
+}
+
+p.HTfooter_h1 {
+  font-size: 30px;
+  padding: 30px 0px 0px 0px;
+  margin: 0px 0px 5px 0px;
+}
+
+p.HTfooter_h2 {
+  font-size: 20px;
+  margin: 0px 0px 15px 0px;
+}
+
+div#HTstatic_flex_container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: left;
+  max-width: 1050px;
+  margin: auto;
+  padding: 0px 0px 30px 0px;
+  border: solid;
+  border-color: DarkGrey;
+  border-width: 1px 0px 0px 0px;
+}
+
+div#HTstatic_flex_item {
+  margin: 0px 110px 0px 0px;
+  text-align: left;
+}
+
+h3.HTcolumn_header {
+  font-size: 16px;
+  font-weight: 40;
+}
+
+p.HTfooter_item:hover {
+  color: white;
+  cursor: pointer;
+}

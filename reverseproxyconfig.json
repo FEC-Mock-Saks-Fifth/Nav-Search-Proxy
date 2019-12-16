@@ -1,0 +1,29 @@
+{
+  "routes": [
+    {
+      "route": "/autosearch",
+      "address": "http://localhost:3001/autosearch"
+    },
+    {
+      "route": "/derick_product_details",
+      "address": "http://localhost:3002/derick_product_details"
+    },
+    {
+      "route": "/reviews",
+      "address": "http://localhost:3000/reviews"
+    },
+    {
+      "route": "/writereview",
+      "method": "POST",
+      "address": "http://localhost:3000/writereview"
+    },
+    {
+      "route": "/hunter_all_products",
+      "address": "http://localhost:3003/hunter_all_products"
+    },
+    {
+      "route": "/hunter_related_products",
+      "address": "http://localhost:3003/hunter_related_products"
+    }
+  ]
+}

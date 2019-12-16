@@ -1,0 +1,1363 @@
+/* App.css styles */
+
+.joshSearchCatContainer {
+  margin-top: 35px;
+}
+
+/* LogoSearchBar*/
+.joshMainContainer {
+  font-family: Source Sans Pro, sans-serif;
+  height: 120px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.joshSubContainer {
+  height: 120px;
+  width: 1050px;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.joshLogoContainer{
+  height: 100%;
+  width: 22%;
+  display: flex;
+  align-self: flex-start;
+  background-image: url(https://www.bitrefill.com/content/cn/b_rgb%3Affffff%2Cc_pad%2Cd_operator.png%2Ch_600%2Cw_1200/v1567787597/saks.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.joshSearchSignIn{
+  height: 30%;
+  width: 78%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+.joshShopIcon{
+  width: 45px;
+  height: 20px;
+  margin-bottom: 2px;
+  background-image: url(https://imageog.flaticon.com/icons/png/512/8/8109.png?size=1200x630f&pad=10,10,10,10&ext=png&bg=FFFFFFFF);
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: 0.3s;
+}
+
+.joshShopIcon:hover {
+  filter:opacity(60%);
+}
+
+.joshHeartIcon {
+  width: 50px;
+  height: 50px;
+  background-image: url(https://cdn2.iconfinder.com/data/icons/media-player-ui/512/Media-Icon-25-512.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.joshHeartIcon:hover {
+      filter: invert(73%) sepia(48%) saturate(4880%) hue-rotate(296deg) brightness(101%) contrast(107%);
+}
+
+.joshShipToContainer {
+  width: 120px;
+  height: 70%;
+  display: flex;
+  border-left: 0.2px solid #B8B8B8;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.joshShipTo {
+  white-space: nowrap;
+  margin-left: 20px;
+  width: 42%;
+  height: 70%;
+  padding-bottom: 5px;
+  color: black;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.joshShipTo:hover {
+      filter:opacity(60%);
+      border-bottom: 0.2px solid black;
+}
+
+.joshAmFlag {
+  white-space: nowrap;
+  width: 20%;
+  height: 50%;
+  margin-top: 1px;
+  background-image: url(https://cdn.webshopapp.com/shops/94414/files/54959460/the-united-states-flag-icon-free-download.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  color: black;
+}
+
+.joshWelcomeContainer {
+  width: 140px;
+  height: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.joshWelcome {
+  white-space: nowrap;
+  margin-right: 20px;
+  width: 90%;
+  height: 70%;
+  color: black;
+  padding-bottom: 5px;
+  text-decoration: none;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.joshWelcome:hover {
+      filter:opacity(60%);
+      border-bottom: 0.2px solid black;
+}
+
+/* Promo Bar */
+
+.joshPB {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 35px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  display: flex;
+}
+
+.joshLeftArr {
+  position: absolute;
+  filter: invert(100%);
+  background: white;
+  top: 5px;
+  width: 40px;
+  height: 25px;
+  transform: scaleX(-1);
+  background-image: url(https://toppng.com/uploads/preview/right-arrow-icon-11549436728z3gizxwjqt.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.joshLeftArr:hover {
+opacity: 0.4;
+}
+
+.joshRightArr {
+  position: absolute;
+filter: invert(100%);
+background: white;
+top: 5px;
+right: 0px;
+width: 40px;
+height: 25px;
+background-image: url(https://toppng.com/uploads/preview/right-arrow-icon-11549436728z3gizxwjqt.png);
+background-size: contain;
+background-repeat: no-repeat;
+}
+
+.joshRightArr:hover {
+  opacity: 0.4;
+}
+
+.joshPromo {
+  font-family: Source Sans Pro, sans-serif;
+  white-space: nowrap;
+  position: absolute;
+  left: 40px;
+  right: 40px;
+  top: 10px;
+  height: 17.5px;
+  color: white;
+  text-align: center;
+  overflow: hidden;
+}
+
+/* Search Bar */
+
+.joshSearchContainer {
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 14px;
+  padding: 30px 30px 30px 30px;
+  height: 20px;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+}
+
+.joshBorderContainerSearch {
+  height: 40px;
+  width: fit-content(100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0.2px solid #B8B8B8;
+  padding: 0px 7px 0px 5px;
+}
+
+.joshSearchButton {
+  height: 30px;
+  width: 30px;
+  border: none;
+  background-image: url(http://clipart-library.com/images_k/magnifying-glass-icon-transparent/magnifying-glass-icon-transparent-19.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.joshClearButton {
+  height: 15px;
+  width: 15px;
+  border: none;
+  display: none;
+  background-image: url(https://www.pngix.com/pngfile/big/533-5334187_png-file-svg-close-x-icon-png-transparent.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.joshSearch {
+  height: 30px;
+  width: 130px;
+  border: none;
+  transition: all 0.3s;
+  outline: none;
+}
+
+.joshAutoSearch {
+  position: absolute;
+  display: flex;
+  height: fit-content(100%);
+  width: 100%;
+  background: #F5F5F5;
+  z-index: 1;
+  border: 0.2px solid #B8B8B8;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.joshSC2 {
+  position: relative;
+  height: fit-content(100%);
+  width: fit-content(100%);
+  display: inline-block;
+  bottom: 11px;
+}
+
+.joshQueryResult {
+  display: flex;
+  height: 40px;
+  width: 70%;
+  padding: 5px;
+  align-items: center;
+}
+
+.joshQueryResult:hover{
+  cursor: pointer;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+/* Categories */
+
+.joshBorderContainerCats {
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 14px;
+  position: absolute;
+  top: 155px;
+  left: 0px;
+  width: 100%;
+  height: 35px;
+  border-top: 0.2px solid #B8B8B8;
+  border-bottom: 0.2px solid #B8B8B8;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(255,255,255, 0.9);
+}
+
+.joshCatContainer {
+  width: 1050px;
+  height: 35px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.joshCat {
+  height: 33px;
+display: flex;
+color: black;
+text-decoration: none;
+justify-content: center;
+align-items: center;
+}
+
+.joshCat:hover {
+  border-bottom: 2px solid black;
+  cursor: pointer;
+}
+
+/* Designer */
+
+.joshDesignCat {
+  height: 33px;
+  display: flex;
+  color: black;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.joshDesignCat:hover {
+  border-bottom: 2px solid black;
+  cursor: pointer;
+}
+
+.joshDesignCat:hover > .SDESIGNER {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0%);
+    background-color: rgba(255,255,255, 0.9);
+    transition: all 0.3s ease-in;
+}
+
+.SDESIGNER {
+  font-family: Source Sans Pro, sans-serif;
+  border-bottom: 0.2px solid #B8B8B8;
+  font-size: 13px;
+  position: absolute;
+  height: 500px;
+  left: 0px;
+  top: 0px;
+  margin-top: 35px;
+  padding-top: 15px;
+  width: 100%;
+  background: rgba(255,255,255, 0.8);
+  display: flex;
+  justify-content: center;
+  visibility: hidden;
+  transition: all 0.2s;
+  opacity: 0;
+  transform: translateY(-1.5%);
+}
+
+.joshDSC {
+  position: absolute;
+  height: 100%;
+  width: 1050px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.joshDCol{
+  height: 100%;
+  width: 300px;
+  text-align: left;
+}
+
+.joshDMenuItem {
+  width: 240px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+.joshDMenuItemLink {
+  text-decoration: none;
+  color: black
+}
+.joshDMenuItemLink:hover {
+    text-decoration: underline;
+}
+
+.joshDImageContainer{
+  padding-top: 10px;
+  width: 240px;
+  height: 100%;
+  display: flex;
+}
+
+.joshDImage {
+  width: 100%;
+  height: 270px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* The Edit */
+
+.joshTheEditCat {
+  height: 33px;
+  display: flex;
+  color: black;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.joshTheEditCat:hover {
+  border-bottom: 2px solid black;
+  cursor: pointer;
+}
+
+.joshTheEditCat:hover > .STHEEDIT {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0%);
+  background-color: rgba(255,255,255, 0.9);
+  transition: all 0.25s ease .210s;
+}
+
+.STHEEDIT {
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 13px;
+  position: absolute;
+  height: 450px;
+  left: 0px;
+  top: 0px;
+  margin-top: 35px;
+  padding-top: 15px;
+  width: 100%;
+  background: rgba(255,255,255, 0.3);
+  display: flex;
+  justify-content: center;
+  border-bottom: 0.2px solid #B8B8B8;
+  visibility: hidden;
+  transition: all 0.2s;
+  opacity: 0;
+  transform: translateY(-1.5%);
+}
+
+.joshTESC {
+  position: absolute;
+  height: 100%;
+  width: 1050px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.joshTECol {
+  height: 100%;
+  width: 300px;
+  text-align: left;
+}
+
+.joshTEMenuItem {
+  width: 240px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+.joshTEMenuItemLink {
+  text-decoration: none;
+color: black
+}
+
+.joshTEMenuItemLink:hover {
+    text-decoration: underline;
+}
+
+.joshTEImageContainer {
+  padding-top: 10px;
+  width: 240px;
+  height: 100%;
+  display: flex;
+}
+
+.joshTEImage {
+  width: 100%;
+  height: 270px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* Women's apparel */
+
+.joshWomensApparelCat {
+  height: 33px;
+  display: flex;
+  color: black;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.joshWomensApparelCat:hover {
+  border-bottom: 2px solid black;
+  cursor: pointer;
+}
+
+.joshWomensApparelCat:hover > .SWOMENSAPPAREL {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0%);
+  background-color: rgba(255,255,255, 0.9);
+  transition: all 0.25s ease .210s;
+}
+
+.SWOMENSAPPAREL {
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 13px;
+  position: absolute;
+  height: 550px;
+  left: 0px;
+  top: 0px;
+  margin-top: 35px;
+  padding-top: 15px;
+  width: 100%;
+  background: rgba(255,255,255, 0.3);
+  display: flex;
+  justify-content: center;
+  border-bottom: 0.2px solid #B8B8B8;
+  visibility: hidden;
+  transition: all 0.2s;
+  opacity: 0;
+  transform: translateY(-1.5%);
+}
+
+.joshWASubContainer {
+  position: absolute;
+  height: 100%;
+  width: 1050px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.joshWACol {
+  height: 100%;
+  width: 300px;
+  text-align: left;
+}
+
+.joshWAMenuItem {
+  width: 240px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+.joshWAMenuItemLink {
+  text-decoration: none;
+  color: black
+}
+
+.joshWAMenuItemLink:hover {
+  text-decoration: underline;
+}
+
+.joshWAImageContainer {
+  padding-top: 10px;
+  width: 240px;
+  height: 100%;
+  display: flex;
+}
+
+.joshWAImage {
+  width: 100%;
+  height: 270px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* Shoes */
+
+.joshShoesCat {
+  height: 33px;
+  display: flex;
+  color: black;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.joshShoesCat:hover {
+  border-bottom: 2px solid black;
+  cursor: pointer;
+}
+
+.joshShoesCat:hover > .SSHOES {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0%);
+  background-color: rgba(255,255,255, 0.9);
+  transition: all 0.25s ease .210s;
+}
+
+.SSHOES {
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 13px;
+  position: absolute;
+  height: 450px;
+  left: 0px;
+  top: 0px;
+  margin-top: 35px;
+  padding-top: 15px;
+  width: 100%;
+  background: rgba(255,255,255, 0.8);
+  display: flex;
+  justify-content: center;
+  border-bottom: 0.2px solid #B8B8B8;
+  visibility: hidden;
+  transition: all 0.2s;
+  opacity: 0;
+  transform: translateY(-1.5%);
+}
+
+.joshSSubContainer {
+  position: absolute;
+  height: 100%;
+  width: 1050px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.joshSCol {
+  height: 100%;
+  width: 300px;
+  text-align: left;
+}
+
+.joshSMenuItem {
+  width: 240px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+.joshSMenuItemLink {
+  text-decoration: none;
+color: black
+}
+
+.joshSMenuItemLink:hover {
+    text-decoration: underline;
+}
+
+.joshSImageContainer {
+  padding-top: 10px;
+  width: 240px;
+  height: 100%;
+  display: flex;
+}
+
+.joshSImage {
+  width: 100%;
+height: 270px;
+background-size: contain;
+background-repeat: no-repeat;
+}
+
+/* Handbags */
+
+.joshHandbagsCat {
+  height: 33px;
+  display: flex;
+  color: black;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.joshHandbagsCat:hover {
+  border-bottom: 2px solid black;
+  cursor: pointer;
+}
+
+.joshHandbagsCat:hover > .SHANDBAGS {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0%);
+  background-color: rgba(255,255,255, 0.9);
+  transition: all 0.25s ease .210s;
+}
+
+.SHANDBAGS {
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 13px;
+  position: absolute;
+  height: 400px;
+  left: 0px;
+  top: 0px;
+  margin-top: 35px;
+  padding-top: 15px;
+  width: 100%;
+  background: rgba(255,255,255, 0.3);
+  display: flex;
+  justify-content: center;
+  border-bottom: 0.2px solid #B8B8B8;
+  visibility: hidden;
+  transition: all 0.2s;
+  opacity: 0;
+  transform: translateY(-1.5%);
+}
+
+.joshHSubContainer {
+  position: absolute;
+  height: 100%;
+  width: 1050px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.joshHCol {
+  height: 100%;
+  width: 300px;
+  text-align: left;
+}
+
+.joshHMenuItem {
+  width: 240px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+.joshHMenuItemLink {
+  text-decoration: none;
+  color: black
+}
+
+.joshHMenuItemLink:hover {
+      text-decoration: underline;
+}
+
+.joshHImageContainer {
+  padding-top: 10px;
+  width: 240px;
+  height: 100%;
+  display: flex;
+}
+
+.joshHIMage {
+  width: 100%;
+  height: 270px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* Jewelry */
+
+.joshJewelryCat {
+  height: 33px;
+  display: flex;
+  color: black;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.joshJewelryCat:hover {
+  border-bottom: 2px solid black;
+  cursor: pointer;
+}
+
+.joshJewelryCat:hover > .SJEWELRY {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0%);
+  background-color: rgba(255,255,255, 0.9);
+  transition: all 0.25s ease .210s;
+}
+
+.SJEWELRY {
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 13px;
+  position: absolute;
+  height: 500px;
+  left: 0px;
+  top: 0px;
+  margin-top: 35px;
+  padding-top: 15px;
+  width: 100%;
+  background: rgba(255,255,255, 0.3);
+  display: flex;
+  justify-content: center;
+  border-bottom: 0.2px solid #B8B8B8;
+  visibility: hidden;
+  transition: all 0.2s;
+  opacity: 0;
+  transform: translateY(-1.5%);
+}
+
+.joshJSubContainer {
+  position: absolute;
+  height: 100%;
+  width: 1050px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.joshJCol {
+  height: 100%;
+  width: 300px;
+  text-align: left;
+}
+
+.joshJMenuItem {
+  width: 240px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+.joshJMenuItemLink {
+  text-decoration: none;
+color: black
+}
+
+.joshJMenuItemLink:hover {
+    text-decoration: underline;
+}
+
+.joshJImageContainer {
+  padding-top: 10px;
+  width: 240px;
+  height: 100%;
+  display: flex;
+}
+
+.joshJImage {
+  width: 100%;
+  height: 270px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* Beauty */
+
+.joshBeautyCat {
+  height: 33px;
+  display: flex;
+  color: black;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.joshBeautyCat:hover {
+  border-bottom: 2px solid black;
+  cursor: pointer;
+}
+
+.joshBeautyCat:hover > .SBEAUTY {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0%);
+  background-color: rgba(255,255,255, 0.9);
+  transition: all 0.25s ease .210s;
+}
+
+.SBEAUTY {
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 13px;
+  position: absolute;
+  height: 450px;
+  left: 0px;
+  top: 0px;
+  margin-top: 35px;
+  padding-top: 15px;
+  width: 100%;
+  background: rgba(255,255,255, 0.3);
+  display: flex;
+  justify-content: center;
+  border-bottom: 0.2px solid #B8B8B8;
+  visibility: hidden;
+  transition: all 0.2s;
+  opacity: 0;
+  transform: translateY(-1.5%);
+}
+
+.joshBSubContainer {
+  position: absolute;
+  height: 100%;
+  width: 1050px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.joshBCol {
+  height: 100%;
+  width: 300px;
+  text-align: left;
+}
+
+.joshBMenuItem {
+  width: 240px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+.joshBMenuItemLink {
+  text-decoration: none;
+color: black
+}
+
+.joshBMenuItemLink:hover {
+    text-decoration: underline;
+}
+
+.joshBImageContainer {
+  padding-top: 10px;
+  width: 240px;
+  height: 100%;
+  display: flex;
+}
+
+.joshBImage {
+  width: 100%;
+  height: 270px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* Men */
+
+.joshMenCat {
+  height: 33px;
+  display: flex;
+  color: black;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.joshMenCat:hover {
+  border-bottom: 2px solid black;
+  cursor: pointer;
+}
+
+.joshMenCat:hover > .SMEN {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0%);
+  background-color: rgba(255,255,255, 0.9);
+  transition: all 0.25s ease .210s;
+}
+
+.SMEN {
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 13px;
+  position: absolute;
+  height: 550px;
+  left: 0px;
+  top: 0px;
+  margin-top: 35px;
+  padding-top: 15px;
+  width: 100%;
+  background: rgba(255,255,255, 0.3);
+  display: flex;
+  justify-content: center;
+  border-bottom: 0.2px solid #B8B8B8;
+  visibility: hidden;
+  transition: all 0.2s;
+  opacity: 0;
+  transform: translateY(-1.5%);
+}
+
+.joshMSubContainer {
+  position: absolute;
+  height: 100%;
+  width: 1050px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.joshMCol {
+  height: 100%;
+  width: 300px;
+  text-align: left;
+}
+
+.joshMMenuItem {
+  width: 240px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+.joshMMenuItemLink {
+  text-decoration: none;
+color: black
+}
+
+.joshMMenuItemLink:hover {
+    text-decoration: underline;
+}
+
+/* Kids */
+
+.joshKidsCat {
+  height: 33px;
+  display: flex;
+  color: black;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.joshKidsCat:hover {
+  border-bottom: 2px solid black;
+  cursor: pointer;
+}
+
+.joshKidsCat:hover > .SKIDS {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0%);
+  background-color: rgba(255,255,255, 0.9);
+  transition: all 0.25s ease .210s;
+}
+
+.SKIDS {
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 13px;
+  position: absolute;
+  height: 600px;
+  left: 0px;
+  top: 0px;
+  margin-top: 35px;
+  padding-top: 15px;
+  width: 100%;
+  background: rgba(255,255,255, 0.3);
+  display: flex;
+  justify-content: center;
+  border-bottom: 0.2px solid #B8B8B8;
+  visibility: hidden;
+  transition: all 0.2s;
+  opacity: 0;
+  transform: translateY(-1.5%);
+}
+
+.joshKSubContainer {
+  position: absolute;
+  height: 100%;
+  width: 1050px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.joshKCol {
+  height: 100%;
+  width: 300px;
+  text-align: left;
+}
+
+.joshKMenuItem {
+  width: 240px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+.joshKMenuItemLink {
+  text-decoration: none;
+color: black
+}
+
+.joshKMenuItemLink:hover {
+    text-decoration: underline;
+}
+
+.joshKImageContainer {
+  padding-top: 10px;
+  width: 240px;
+  height: 100%;
+  display: flex;
+}
+
+.joshKImage {
+  width: 100%;
+  height: 270px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.joshHomeCat {
+  height: 33px;
+  display: flex;
+  color: black;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.joshHomeCat:hover {
+  border-bottom: 2px solid black;
+  cursor: pointer;
+}
+
+.joshHomeCat:hover > .SHOME {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0%);
+  background-color: rgba(255,255,255, 0.9);
+  transition: all 0.25s ease .210s;
+}
+
+.SHOME {
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 13px;
+  position: absolute;
+  height: 600px;
+  left: 0px;
+  top: 0px;
+  margin-top: 35px;
+  padding-top: 15px;
+  width: 100%;
+  background: rgba(255,255,255, 0.3);
+  display: flex;
+  justify-content: center;
+  border-bottom: 0.2px solid #B8B8B8;
+  visibility: hidden;
+  transition: all 0.2s;
+  opacity: 0;
+  transform: translateY(-1.5%);
+}
+
+.joshHomeSubContainer {
+  position: absolute;
+  height: 100%;
+  width: 1050px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.joshHomeCol {
+  height: 100%;
+  width: 300px;
+  text-align: left;
+}
+
+.joshHomeMenuItem {
+  width: 240px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+.joshHomeMenuItemLink {
+  text-decoration: none;
+color: black
+}
+
+.joshHomeMenuItemLink:hover {
+    text-decoration: underline;
+}
+
+.joshHomeImageContainer {
+  padding-top: 10px;
+  width: 240px;
+  height: 100%;
+  display: flex;
+}
+
+.joshHomeImage {
+  width: 100%;
+  height: 270px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* Gift Icon */
+
+.joshGiftIcon {
+  margin-left: 2px;
+  width: 20px;
+  height: 15px;
+  background-image: url(https://www.iconsdb.com/icons/preview/red/gift-xxl.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* Gift Cat */
+
+.joshGiftsCat {
+  height: 33px;
+  display: flex;
+  color: black;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.joshGiftsCat:hover {
+  border-bottom: 2px solid black;
+  cursor: pointer;
+}
+
+.joshGiftsCat:hover > .SGIFTS {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0%);
+  background-color: rgba(255,255,255, 0.9);
+  transition: all 0.25s ease .210s;
+}
+
+.SGIFTS {
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 13px;
+  position: absolute;
+  height: 300px;
+  left: 0px;
+  top: 0px;
+  margin-top: 35px;
+  padding-top: 15px;
+  width: 100%;
+  background: rgba(255,255,255, 0.3);
+  display: flex;
+  justify-content: center;
+  border-bottom: 0.2px solid #B8B8B8;
+  visibility: hidden;
+  transition: all 0.2s;
+  opacity: 0;
+  transform: translateY(-1.5%);
+}
+
+.joshGiftsSubContainer {
+  position: absolute;
+  height: 100%;
+  width: 1050px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.joshGiftsCol {
+  height: 100%;
+  width: 300px;
+  text-align: left;
+}
+
+.joshGiftsMenuItem {
+  width: 240px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+.joshGiftsMenuItemLink {
+  text-decoration: none;
+color: black
+}
+
+.joshGiftsMenuItemLink:hover {
+  text-decoration: underline;
+}
+
+.joshGiftsImageContainer {
+  padding-top: 10px;
+  width: 240px;
+  height: 100%;
+  display: flex;
+}
+
+.joshGiftsImage {
+  width: 100%;
+  height: 270px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* Sale */
+
+.joshSaleCat {
+  height: 33px;
+  display: flex;
+  color: black;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.joshSaleCat:hover {
+  border-bottom: 2px solid black;
+  cursor: pointer;
+}
+
+.joshSaleCat:hover > .SSALE {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0%);
+  background-color: rgba(255,255,255, 0.9);
+  transition: all 0.25s ease .210s;
+}
+
+.SSALE {
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 13px;
+  position: absolute;
+  height: 350px;
+  left: 0px;
+  top: 0px;
+  margin-top: 35px;
+  padding-top: 15px;
+  width: 100%;
+  background: rgba(255,255,255, 0.3);
+  display: flex;
+  justify-content: center;
+  border-bottom: 0.2px solid #B8B8B8;
+  visibility: hidden;
+  transition: all 0.2s;
+  opacity: 0;
+  transform: translateY(-1.5%);
+}
+
+.joshSaleSubContainer {
+  position: absolute;
+  height: 100%;
+  width: 1050px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.joshSaleCol {
+  height: 100%;
+  width: 300px;
+  text-align: left;
+}
+
+.joshSaleMenuItem {
+  width: 240px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+.joshSaleMenuItemLink {
+  text-decoration: none;
+color: black
+}
+
+.joshSaleMenuItemLink:hover {
+text-decoration: underline;
+}
+
+.joshSaleImageContainer {
+  padding-top: 10px;
+  width: 240px;
+  height: 100%;
+  display: flex;
+}
+
+.joshSaleImage {
+  width: 100%;
+  height: 270px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
